@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find number greater or less than you input</title>
+</head>
+    <body>
+        <form method="POST">
+            <label for="number">input number</label>
+            <input type="number" value="0" id="number" name="number">
+            <input type="submit" name="submit" value="push">
+            <input type="submit" name="submit" value="clear">
+        </form>
+        <form method="POST" action="/reverseString">
+            <label for="text">input string to reverse</label>
+            <input type="text" id="text" name="text">
+            <!--<input type="checkbox" id="taleRecurse" name="taleRecurse">-->
+            <input type="submit" name="submit" value="invert string">
+        </form>
+        {{ detail }}
+    </body>
+</html>
